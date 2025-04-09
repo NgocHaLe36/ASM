@@ -1,0 +1,54 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f3f4f6, #dfe9f3);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    line-height: 1.6;
+  }
+form{
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4 15px;
+    width: 350px;
+  }
+
+.form-group{
+    margin: 10px 0;
+} /*phân cách các nhóm*/
+.form-control{
+    width: 250px;
+    padding: 5px;
+    outline:none;
+    border: 3px solid gray;
+    border-radius: 3px;
+} /*định dạng cho 1 điều khiển*/
+.form-group label{
+    font-weight:bold;
+    font-variant:small-caps
+} /*định dạng cho nhãn trên điều khiển*/
+.form-control:focus{
+    box-shadow:0 0 3px red;
+    border: 1px solid yellow;
+} /*định dạng cho điều khiển đang nhận trỏ chuột*/
+.form-button{
+    padding: 8px 30px;
+    outline:none;
+    border:none;
+    border-radius:20px;
+    font-weight:bold;
+    background-color:rgb(255, 177, 87);
+    color:rgb(0, 0, 0);
+} 
+.form-button:hover{
+    color:blue;
+    background-color: orangered;
+} /*định dạng cho nút khi đưa chuột lên*/
+.form-button:disabled{
+    color:darkgray;
+    box-shadow:inset 0 0 20px gray;
+} /*định dạng cho nút bị vô hiệu hóa*/
